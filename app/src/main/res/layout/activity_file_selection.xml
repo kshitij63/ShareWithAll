@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fileSelectionContainer">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/ok"/>
+    <Button
+        android:id="@+id/goUpTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Go UP"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:onClick="onGoUpClickListener" />
+
+    <TextView
+        android:id="@+id/directoriesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="DIRECTORIES"
+        android:textSize="20dp"
+        android:layout_margin="2dp" />
+
+    <ListView
+        android:id="@+id/directorySelectionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+    <TextView
+        android:id="@+id/filesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="FILES"
+        android:textSize="20dp"
+        android:layout_margin="2dp" />
+
+    <ListView
+        android:id="@+id/fileSelectionList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:choiceMode="multipleChoice" />
+
+</LinearLayout>

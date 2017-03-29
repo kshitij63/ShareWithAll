@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:background="#4FC3F7"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.sharewithall.SplashScreenActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:src="@drawable/app"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ShareWithAll"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

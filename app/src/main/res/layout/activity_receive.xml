@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_receive"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4FC3F7"
+    tools:context="com.example.android.sharewithall.ReceiveActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for host to send..."
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:id="@+id/usage"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lay1"
+        android:layout_marginTop="240dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:text="HOME"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gal_but"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="220dp"
+        android:text="GALLERY"/>
+
+    </LinearLayout>
+
+</LinearLayout>
